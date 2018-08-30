@@ -1,0 +1,117 @@
+#formulaire_publication,.formulaire_modif
+{
+    width: 98%;  
+    color: black;
+    border-radius: 10px;
+    background-color: white;
+/*    border:1px solid red;*/
+    padding: 5px;
+    text-align: justify;
+}
+#formulaire_publication .form-group,.formulaire_modif .form-group
+{
+    margin-left: 0px;
+/*    border: 1px solid red;*/
+    text-align: justify;
+}
+.formulaire_modif span
+{
+    color: red;
+    font-size: 1em;
+}
+ .form-group label,.form-group #description_textarea
+{
+    display: inline-block;
+    margin-left: 0px;
+    color: rgb(64,0,64);
+}
+.form-group input 
+{
+     width: 300px;
+     height: 25px;
+/*     border: 1px solid black;*/
+     border-radius: 5px;
+}
+.formulaire_modif .form-group input
+{
+    width: 250px;
+     height: 24px;
+/*     border: 1px solid black;*/
+     border-radius: 5px;
+}
+.form-group textarea
+{
+ 
+      border-radius: 5px;
+      width: 400px;
+}
+.form-group .indiquation
+{
+    width: 350px;
+    height: 25px;
+    margin-left: 5px;
+/*    border: 1px solid black;*/
+    
+}
+.formulaire_modif .form-group .indiquation{
+     width: 300px;
+    height: 24px;
+    margin-left: 5px;
+}
+.form-group input,.form-group .indiquation
+ {
+     display: inline-block;
+     vertical-align: top;
+ }
+.form-group textarea, .form-group .description_textarea
+{
+    display: inline-block;
+    vertical-align: top;
+}
+.nom_modele,#nom_modele
+{
+    margin-left: 16px;
+}
+.prix,#prix
+{
+    margin-left: 89px;
+}
+.form-group textarea
+{
+     margin-left: 43px;
+}
+#avatar_poste label
+{
+    display: block;
+    width: 50%;
+    margin: auto;
+    border: 1px solid black;
+    text-align: center;
+
+}
+#apercu,.apercu {
+    width:300px;                                
+    height: 270px;
+    border: 1px solid lightgrey;
+    margin:auto;
+    overflow:hidden;
+}
+.indiquation,#indiquation_photo,.indiquation_photo,#indiquation_avatar
+{
+    color: red;
+    text-align: center;
+    
+}
+#formulaire_profil input
+{
+    height: 20px;
+    border-radius: 5px;
+}
+#update,#poster
+{
+    height: 25px;
+}
+#formulaire_profil
+{
+    text-align: center;
+}

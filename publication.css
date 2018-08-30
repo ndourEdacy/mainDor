@@ -1,0 +1,262 @@
+*, *:after, *:before {
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+.container{
+   
+    padding: 0px;
+    margin: auto;
+    margin-top: 5px;
+    width:98%;
+    
+}
+aside {
+    vertical-align: top;
+    padding: 0;
+    border:1px solid gray;
+    width: 290px;
+    height: 525px;
+    display: inline-block;
+    margin-left: 0px;
+    text-align: justify;
+    padding-bottom: 10px;
+/*                                overflow: scroll;*/
+}
+			
+.photo-profil,#photo_profil {
+    width: 160px;
+    height: 160px;
+    margin: auto;
+    overflow: hidden;
+                    text-align: center;
+    border-radius: 100%;
+    border: 3px solid black;
+}
+#btn_modifier_photo_profil
+{
+    color: rgba(255,255,255,0.7)
+    
+}
+#btn_modifier_photo_profil:hover
+{
+    text-decoration: underline;
+    color: white;
+    
+}
+section {
+    vertical-align: top;
+    display: inline-block;
+    margin-top: 0px;
+    margin-left: 2px;
+/*				 border:1px solid gray;*/
+    width: 960px;
+    height: 515px;
+    padding: 4px;
+    overflow: scroll;
+    text-align: justify;
+                    
+}
+aside,section
+{
+    vertical-align: top;
+    
+}
+input[disabled] {
+    background: white;
+    border: none;
+}
+
+.label-info {
+    display: block;
+}
+
+.label-input {
+    text-align: center;
+    width: 98%;
+}
+
+.infos {
+    padding: 5px;
+}
+			
+/*#liste_pub
+{
+   width: 735px;
+    margin-top: -50px;
+    text-align: center;
+    padding: 10px;
+    background-color:white;
+    color: black;
+}*/
+.une_publication
+{
+    display: inline-block;
+}
+.une_publication
+{
+   margin-left: 2px;
+   width: 305px;
+   height:  360px;
+   margin-bottom: 10px;
+   background-color:  rgb(178,78,173);
+   border: 2px solid white;
+   border-radius: 10px;
+    
+}
+.une_publication span
+{
+    display: block;
+   text-align: center;
+    color:white;
+    border-bottom:1px solid white;
+    font-size: 1.5em;
+}
+.une_publication #img_modele
+{
+    text-align: center;
+    overflow:hidden;
+/*    border: 1px solid rgba(64,0,64,0.5);*/
+}
+.une_publication .btn_maj
+{
+    margin-top: 0px;
+    padding: 0px;
+      background-color:rgb(178,78,173);
+       -webkit-border-radius:0px 0px 10px 10px;
+    -moz-border-radius:0px 0px 10px 0px;
+    border-radius:0px 0px 10px 10px;
+   
+}
+.une_publication .btn_maj button
+{
+    height:30px;
+    text-align: center;
+    background-color: white;
+    border: 1px solid rgb(64,0,64);
+    border-radius: 5px;
+}
+#modifier
+{
+    margin-left: 4px;
+}
+.statistique_appreciation
+{
+    
+    width: 130px;
+    height: 41px;
+    /*padding: 2px;*/
+    margin-left: 2px;
+    text-align: left;
+    border: 1px solid gray;
+    background-color: white;
+       
+}
+.like-block
+{
+    display: block;
+    /*display: inline-block;*/
+    float: left;
+    /*vertical-align: top;*/
+    padding: 0px;
+    margin: 0;
+    width: 50%; 
+/*      border: 1px solid red;*/
+ /*text-align: left;*/
+    
+}
+
+span.like-number
+{
+    display: inline;
+    text-align: left;
+    color:rgb(178,78,173);
+    border-bottom: none;
+    font-size: 1em;
+}
+/*.statistique_appreciation img,.statistique_appreciation .like-number
+{
+    display: inline-block;
+}*/
+.statistique_appreciation  img
+{
+    height: 18px;
+    width: 18px;
+    /*overflow: hidden;*/
+    /*text-align: center;*/
+/*    border-radius: 100%;
+    border: 1px solid rgb(178,78,173); */
+    /*margin-left: 0px;*/
+}
+#supprimer
+{
+    margin-left:2px;
+}
+.statistique_appreciation,button
+{
+    display: inline-block;
+    vertical-align: middle;
+}
+.une_publication .btn_maj button a
+{
+     color: rgb(178,78,173);
+    text-decoration: none;
+}
+.une_publication .btn_maj button 
+{
+     color: rgb(178,78,173);
+    text-decoration: none;
+}
+.une_publication .btn_maj button:hover
+{
+    color: rgb(64,0,64);
+}
+.une_publication .btn_maj button a:hover
+{
+     color: rgb(64,0,64);
+}
+.overlay
+{
+    width: 750px;
+    height: 650px;
+    position: absolute;
+    top: 50px;
+    left: 450px;
+    border-radius: 10px;
+    background-color:  rgba(178,78,173,0.9);
+    padding: 10px;
+    /*text-align: center;*/
+    display : none;
+    z-index: 100;
+     border: 2px solid red;
+    
+}
+
+#formulaire_modification
+{   
+    position: relative;
+    width: 95%;
+    height: 95%;
+    border-radius: 10px;
+    background-color: white;
+    margin: auto;
+    text-align: center;
+    padding: 5px;
+  
+}
+
+.description
+{
+    height: 80px; 
+}
+/*
+.form-group {
+    text-align:center;
+}
+.form-group label {
+    display: block;
+}
+.form-group input, .form-group textarea {
+    width: 500px;
+} */

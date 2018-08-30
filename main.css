@@ -1,0 +1,75 @@
+body{
+    background-color:rgb(64,0,64);
+    color:white;
+    
+}
+header{
+    width:96%;
+    border:1px solid rgb(178,78,173) ;
+    padding:6px;
+    margin:auto;
+    text-align: center;
+}
+.container
+{
+     border:1px solid rgb(178,78,173) ;
+      width:96%;
+}
+section{
+    width:91%;
+     margin:auto;
+    margin-top:10px;   
+    text-align: center;
+    padding:50px;
+}
+/*             Formulaire de connexion                    */
+#login_form
+{
+    border: 2px solid rgb(173,78,173);
+    background-color: white;
+    width: 450px;
+    border-radius: 10px;
+    margin: auto;
+    color: rgb(64,0,64);
+}
+#login_form div:first-child
+{
+    font-size: 2em;
+    text-align: center;
+}
+#identifiant,#mot_de_pass
+{
+    width: 80%;
+    margin: auto;
+    color: rgb(173,78,173);
+    border: none;
+    border-bottom: 1px solid rgb(173,78,173);
+    
+}
+#identifiant:focus,#mot_de_pass:focus
+{
+    border-width: 2px;
+}
+#login_form input, #login_form .indiquation
+{
+    display: inline-block;
+}
+#login_form .indiquation
+{
+    color: red;
+    display: block;
+    text-align: center;
+}
+#btn_connexion
+{
+    border: none;
+    background: #B24EAD;
+    color: white;
+    padding: 5px;
+    border-radius: 3px;
+}
+#btn_connexion:hover
+{
+    background: #AD39A7;
+    cursor: pointer;
+}

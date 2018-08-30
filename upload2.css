@@ -1,0 +1,77 @@
+*, *:after, *:before {
+    box-sizing: border-box;
+}
+
+#formulaire_profil label {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+#formulaire_profil input {
+    margin-bottom: 5px;
+}
+
+.form-group {
+    margin-bottom: 10px;
+}
+
+#formulaire_publication, #formulaire_parametre {
+    padding: 8px 5px;
+    background-color: #F5F5F5;
+}
+
+#description_textarea {
+    vertical-align: top;
+}
+
+.form-group label, .form-group #description_textarea, span.description_textarea {
+    font-weight: bold;
+    margin-right: 59px;
+    color: #400040;
+    text-align: left;
+    display: inline-block;
+    width: 250px;
+}
+
+input, textarea, #enable-me {
+    width: 500px;
+    border: 1px solid #9E969E;
+    border-radius: 5px;
+}
+
+input:focus, textarea:focus {
+    border: 2px solid #1BA5E5;
+    box-shadow: 0 0 5px #72C6E5;
+}
+
+input {
+    height: 30px;
+}
+
+#apercu{
+    margin: auto;
+    width: 300px;
+    height: 300px;
+    border: 2px solid black;
+    overflow: hidden;
+}
+
+input[type="submit"], #enable-me {
+    border: none;
+    background-color: #B24EAD;
+    color: white;
+}
+
+#poster {
+    width: 300px;
+}
+
+#enable-me, #update {
+    width: inherit;
+    padding: 5px 10px;
+}
+
+input[type="submit"]:hover, #update:hover, #enable-me:hover {
+    background-color: #AD39A7;
+    cursor: pointer;
+}
